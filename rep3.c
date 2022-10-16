@@ -1,8 +1,8 @@
 #include <stdio.h>
 void main()
 {  int p,c,m,t,mp;
-
    printf("Eligibility Criteria :\n");
+   printf("Mentioned here:");
    printf("Marks in Maths >=65\n");
    printf("and Marks in Phy >=55\n");
    printf("and Marks in Chem>=50\n");
@@ -23,7 +23,7 @@ void main()
          if(p>=55)
              if(c>=50)
 	        if((m+p+c)>=190||(m+p)>=140)
-	           printf("The  candidate is eligible for admission.\n");
+	           printf("The  candidate is eligible for admission due to lesser score.\n");
 	        else
 	          printf("The candidate is not eligible.\n");
              else
